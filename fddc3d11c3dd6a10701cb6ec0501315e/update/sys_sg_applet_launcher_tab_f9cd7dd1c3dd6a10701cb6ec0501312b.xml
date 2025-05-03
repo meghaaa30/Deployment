@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="serviceNow Deployment">f1cd7551c3dd6a10701cb6ec050131dc</applet_launcher>
+        <icon display_value="Home serviceNow Deployment">3dcd7dd1c3dd6a10701cb6ec0501312b</icon>
+        <label>serviceNow Deployment</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 06:30:25</sys_created_on>
+        <sys_id>f9cd7dd1c3dd6a10701cb6ec0501312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>serviceNow Deployment</sys_name>
+        <sys_package display_value="serviceNow Deployment" source="x_1593421_servicen">fddc3d11c3dd6a10701cb6ec0501315e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="serviceNow Deployment">fddc3d11c3dd6a10701cb6ec0501315e</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_f9cd7dd1c3dd6a10701cb6ec0501312b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 06:30:25</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

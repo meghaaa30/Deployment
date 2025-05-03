@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New (Deployment)</name>
+        <parameter_screen/>
+        <query_condition table="x_1593421_servicen_deployment">sys_idSTARTSWITH{{Deployment sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Deployment sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 06:30:25</sys_created_on>
+        <sys_id>b1cd7dd1c3dd6a10701cb6ec0501316f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (Deployment)</sys_name>
+        <sys_package display_value="serviceNow Deployment" source="x_1593421_servicen">fddc3d11c3dd6a10701cb6ec0501315e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="serviceNow Deployment">fddc3d11c3dd6a10701cb6ec0501315e</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_b1cd7dd1c3dd6a10701cb6ec0501316f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 06:30:25</sys_updated_on>
+        <table>x_1593421_servicen_deployment</table>
+        <template>email={{Deployment email}}^first_name={{Deployment first_name}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1cd7dd1c3dd6a10701cb6ec0501316f"/>
+</record_update>
