@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd6d71d1c3dd6a10701cb6ec050131fb" label="Deployment" max_length="40" name="x_1593421_servicen_deployment" type="collection">
+        <element label="Email" max_length="40" name="email" type="email"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+    </element>
+</database>
